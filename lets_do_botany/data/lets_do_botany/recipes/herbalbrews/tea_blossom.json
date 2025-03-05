@@ -1,0 +1,55 @@
+{
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "herbalbrews:tea_blossom"
+  },
+  "categories": [
+    "dirt",
+    "farmland"
+  ],
+  "growthTicks": 1200,
+  "lightLevel": 14,
+  "display": {
+    "type": "botanypots:transitional",
+    "phases": [
+      {
+        "block": "herbalbrews:tea_plant",
+        "properties": {
+          "age": 0
+        }
+      },
+      {
+        "block": "herbalbrews:tea_plant",
+        "properties": {
+          "age": 1
+        }
+      },
+      {
+        "block": "herbalbrews:tea_plant",
+        "properties": {
+          "age": 2
+        }
+      },
+      {
+          "block": "herbalbrews:tea_plant",
+          "properties": {
+            "age": 3
+          }
+      }
+    ]
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "herbalbrews:tea_blossom"
+      }
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "item": "herbalbrews:tea_blossom"
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "herbalbrews:coffee_beans"
+    },
+    "categories": [
+      "dirt",
+      "farmland"
+    ],
+    "growthTicks": 1200,
+    "display": {
+      "type": "botanypots:transitional",
+      "phases": [
+        {
+          "block": "herbalbrews:coffee_plant",
+          "properties": {
+            "age": 0
+          }
+        },
+        {
+          "block": "herbalbrews:coffee_plant",
+          "properties": {
+            "age": 1
+          }
+        },
+        {
+          "block": "herbalbrews:coffee_plant",
+          "properties": {
+            "age": 2
+          }
+        },
+        {
+            "block": "herbalbrews:coffee_plant",
+            "properties": {
+              "age": 3
+            }
+        }
+      ]
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "herbalbrews:coffee_beans"
+        }
+      },
+      {
+        "chance": 0.05,
+        "output": {
+          "item": "herbalbrews:coffee_beans"
+        }
+      }
+    ]
+  }
